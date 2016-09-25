@@ -1,13 +1,13 @@
-# react-summernote
+# react-summernote (Bootstrap 4 version for Ryfma.ru)
 [Summernote](https://github.com/summernote/summernote) adaptation for react (Headache free)
 
-[![npm version](https://badge.fury.io/js/react-summernote.svg)](https://www.npmjs.com/package/react-summernote)
+[![npm version](https://badge.fury.io/js/react-summernote.svg)](https://www.npmjs.com/package/react-summernote4)
 
 
 ### Getting Started
 #### Install
 ```
-npm install react-summernote
+npm install react-summernote4
 ```
 #### Configure Webpack
 Add ProvidePlugin to your webpack config
@@ -21,11 +21,11 @@ new webpack.ProvidePlugin({
 ### Example
 ```javascript
 import React from "react";
-import ReactSummernote from "react-summernote";
-import "react-summernote/lang/summernote-ru-RU"; // you can import any other locale
+import ReactSummernote from "react-summernote4";
+import "react-summernote4/lang/summernote-ru-RU"; // you can import any other locale
 
 import "bootstrap/dist/css/bootstrap.css"; // you should import bootstrap.css if you haven't done that before
-import "react-summernote/dist/react-summernote.css"; // import styles
+import "react-summernote4/dist/react-summernote4.css"; // import styles
 
 class RichTextEditor extends React.Component {
 	onChange(content) {
