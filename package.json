@@ -1,6 +1,6 @@
 {
   "name": "react-summernote4",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Summernote adaptation for react",
   "main": "./dist/react-summernote.js",
   "repository": {
@@ -28,7 +28,7 @@
     "codemirror": "^5.11.0"
   },
   "peerDependencies": {
-    "jquery": "^3.0.0",
+    "jquery": "^3.1.1",
     "bootstrap": "^4.0.0-alpha.4",
     "react": "*",
     "react-dom": "*"
